@@ -4,7 +4,7 @@ steps:
     args: ["install", "somar"]
     env: ["GOPATH=."]
 
-  - id: "Instalando Application TEST"
+  - id: "App Test"
     name: "gcr.io/cloud-builders/go"
     args: ["test", "somar"]
     env: ["GOPATH=."]
