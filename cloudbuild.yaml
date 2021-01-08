@@ -20,4 +20,3 @@ steps:
   - id: "Run Container"
     name: "gcr.io/cloud-builders/docker"
     args: ["run", "gcr.io/$PROJECT_ID/go-sum:$SHORT_SHA"]
-
