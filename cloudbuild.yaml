@@ -6,7 +6,7 @@ steps:
 
   - id: "Instalando Application TEST"
     name: "gcr.io/cloud-builders/go"
-    args: ["test", "sum"]
+    args: ["test", "somar"]
     env: ["GOPATH=."]
 
   - id: "Image Build"
